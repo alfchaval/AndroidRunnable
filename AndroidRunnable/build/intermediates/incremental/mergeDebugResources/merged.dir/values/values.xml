@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidRunnable</string>
+    <string name="btnAsync">AsyncTask</string>
+    <string name="btnAsyncProgress">AsyncTask + ProgressBar</string>
+    <string name="btnConHilos">Con Hilos</string>
+    <string name="btnSinHilos">Sin Hilos</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_android_runnable">AndroidRunnable</string>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+</resources>

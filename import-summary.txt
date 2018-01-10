@@ -1,0 +1,105 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+/home/lourdes/Dropbox/Clases/DEINT_LIBRO/UT5 - Interfaz Avanzada/ejemplos apuntes/AndroidRunnable
+                                            - -        -                 -                       
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/misc.xml
+* .idea/workspace.xml
+* AndroidRunnable/
+* AndroidRunnable/build.gradle
+* AndroidRunnable/src/
+* AndroidRunnable/src/main/
+* AndroidRunnable/src/main/AndroidManifest.xml
+* AndroidRunnable/src/main/java/
+* AndroidRunnable/src/main/java/com/
+* AndroidRunnable/src/main/java/com/tema5/
+* AndroidRunnable/src/main/java/com/tema5/androidrunnable/
+* AndroidRunnable/src/main/java/com/tema5/androidrunnable/AndroidRunnable.java
+* AndroidRunnable/src/main/res/
+* AndroidRunnable/src/main/res/drawable-hdpi/
+* AndroidRunnable/src/main/res/drawable-hdpi/ic_action_search.png
+* AndroidRunnable/src/main/res/drawable-hdpi/ic_launcher.png
+* AndroidRunnable/src/main/res/drawable-ldpi/
+* AndroidRunnable/src/main/res/drawable-ldpi/ic_launcher.png
+* AndroidRunnable/src/main/res/drawable-mdpi/
+* AndroidRunnable/src/main/res/drawable-mdpi/ic_action_search.png
+* AndroidRunnable/src/main/res/drawable-mdpi/ic_launcher.png
+* AndroidRunnable/src/main/res/drawable-xhdpi/
+* AndroidRunnable/src/main/res/drawable-xhdpi/ic_action_search.png
+* AndroidRunnable/src/main/res/drawable-xhdpi/ic_launcher.png
+* AndroidRunnable/src/main/res/layout/
+* AndroidRunnable/src/main/res/layout/android_runnable.xml
+* AndroidRunnable/src/main/res/menu/
+* AndroidRunnable/src/main/res/menu/android_runnable.xml
+* AndroidRunnable/src/main/res/values-v11/
+* AndroidRunnable/src/main/res/values-v11/styles.xml
+* AndroidRunnable/src/main/res/values-v14/
+* AndroidRunnable/src/main/res/values-v14/styles.xml
+* AndroidRunnable/src/main/res/values/
+* AndroidRunnable/src/main/res/values/strings.xml
+* AndroidRunnable/src/main/res/values/styles.xml
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => AndroidRunnable/src/main/AndroidManifest.xml
+* assets/ => AndroidRunnable/src/main/assets
+* res/ => AndroidRunnable/src/main/res/
+* src/ => AndroidRunnable/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

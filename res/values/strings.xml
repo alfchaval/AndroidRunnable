@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">AndroidRunnable</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_android_runnable">AndroidRunnable</string>
+    <string name="btnSinHilos">Sin Hilos</string>
+    <string name="btnConHilos">Con Hilos</string>
+    <string name="btnAsync">AsyncTask</string>
+    <string name="btnAsyncProgress">AsyncTask + ProgressBar</string>
+
+</resources>
